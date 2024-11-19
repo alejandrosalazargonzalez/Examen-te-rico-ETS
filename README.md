@@ -27,6 +27,8 @@ Diseña un diagrama de casos de uso que represente las interacciones entre el cl
 Realiza la especificación de casos de uso de la siguiente imagen.
 <img src="alguiler-pelicula-cu.png" alt="ejercicio_casos_de_uso">
 
+### Actores
+
 |  Actor | Cliente |
 |---|---|
 | Descripción  | _Usuario del sistema de VIDEOMAX_  |
@@ -71,3 +73,174 @@ Realiza la especificación de casos de uso de la siguiente imagen.
 |---|---|---|
 | _Nombre_  | _Descripción_  | _Tipo_ |
 | | |
+
+### Casos de Uso
+
+|  Caso de Uso	CU | Proporcionar informacion personal  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Cliente_ |
+  | Descripción | _El usuario da sus datos personales_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |  
+  | Post-condiciones  | _Se regstra al cliente_  |  
+  |  Requerimientos | __  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Alquila Pelicula  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Cliente_ |
+  | Descripción | _El usuario alquila una pelicula_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _Selecciona una pelicula_  |  
+  | Post-condiciones  | _Se regstra el alquiler, devuelve la pelicula_  |  
+  |  Requerimientos | _Ser cliente_  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Reserva pelicula  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Cliente_ |
+  | Descripción | _El usuario reserva una pelicula_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _elige una pelicula_  |  
+  | Post-condiciones  | _Se regstra la reserva_  |  
+  |  Requerimientos | _Ser Cliente_  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Devolver pelicula pelicula  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Cliente_ |
+  | Descripción | _El usuario devuelve una pelicula_  |
+  | Flujo básico | _Alquila una pelicula, se devuelve la pelicula_ |
+  | Pre-condiciones | _Reservar una pelicula_  |  
+  | Post-condiciones  | __  |  
+  |  Requerimientos | _ser cliente_  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Selecionar pelicula  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Cliente_ |
+  | Descripción | _El usuario elige una pelicula_  |
+  | Flujo básico | _Alquila o reserva una pelicula, selecciona la pelicula_ |
+  | Pre-condiciones | _Alquilar pelicula, Reservar pelicula_  |  
+  | Post-condiciones  | __  |  
+  |  Requerimientos | _ser cliente_  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Abastece pelicula segun existencia  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Proveedor_ |
+  | Descripción | _Lleva peliculas a la tienda segun la cantidad que tenga_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |  
+  | Post-condiciones  | __  |  
+  |  Requerimientos | __  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Abastece pelicula  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Proveedor_ |
+  | Descripción | _Lleva peliculas a la tienda_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _Hacen falta peliculas en la tienda_  |  
+  | Post-condiciones  | __  |  
+  |  Requerimientos | __  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Abastece pelicula  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Proveedor_ |
+  | Descripción | _Lleva peliculas a la tienda_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _Hacen falta peliculas en la tienda_  |  
+  | Post-condiciones  | __  |  
+  |  Requerimientos | __  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Registra Cliente  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Administrador VIDEOMAX_ |
+  | Descripción | _registra los datos de un cliente_  |
+  | Flujo básico | _cliente ingresa datos personales, se registra el cliente_ |
+  | Pre-condiciones | _Un cliente nuevo tiene que ingresar sus datos_  |  
+  | Post-condiciones  | __  |  
+  |  Requerimientos | __  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Registra Alquiler  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Administrador VIDEOMAX_ |
+  | Descripción | _registra el alquiler de una pelicula_  |
+  | Flujo básico | _cliente alquila una pelicula, se registra el alquiler_ |
+  | Pre-condiciones | _Un cliente alquila una pelicula_  |  
+  | Post-condiciones  | __  |  
+  |  Requerimientos | _Un cliente tiene que alquilar una pelicula_  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Registra Reserva  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Administrador VIDEOMAX_ |
+  | Descripción | _registra la reserva de una pelicula_  |
+  | Flujo básico | _cliente elige una pelicula, reserva la pelicula, se registra la reserva_ |
+  | Pre-condiciones | _Un cliente reserva una pelicula_  |  
+  | Post-condiciones  | __  |  
+  |  Requerimientos | __  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Registra Pelicula  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Administrador VIDEOMAX_ |
+  | Descripción | _registra una pelicula_  |
+  | Flujo básico | _se abastece pelicula, se registra la pelicula_ |
+  | Pre-condiciones | __  |  
+  | Post-condiciones  | __  |  
+  |  Requerimientos | __  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
+
+|  Caso de Uso	CU | Actualiza proveedor  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Administrador VIDEOMAX_ |
+  | Descripción | _Acualiza el proveedor de peliculas_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |  
+  | Post-condiciones  | __  |  
+  |  Requerimientos | __  |
+  |  Notas |  _Notas adicionales_ |
+  | Autor  | _Alejandro Salazar González_ |
+  |Fecha | _18/11/2024_ |
