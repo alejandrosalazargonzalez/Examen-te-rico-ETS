@@ -1,4 +1,6 @@
-# Examen-te-rico-ETS
+# Examen-teorico-ETS
+
+## Alejandro Salazar González
 
 ## Ejercicio 1 Tienda de Comercio Electrónico
 
